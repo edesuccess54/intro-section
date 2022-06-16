@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  
+  <title>Frontend Mentor | Intro section with dropdown navigation</title>
+</head>
+<body>
+  <header>
+    <nav class="desktop">
+      <ul class="nav-main">
+        <div class="logo">
+          <img src="images/logo.svg" alt="">
+        </div>
+        <li>
+          <a href="#">Features  
+            <img src="images/icon-arrow-down.svg" class="arrow-down feature" alt="icon">
+            <ul class="sub-menu features" >
+              <li><a href=""><img src="images/icon-todo.svg" alt="icon"> Todo List</a></li>
+              <li><a href=""><img src="images/icon-calendar.svg" alt="icon"> Calender</a></li>
+              <li><a href=""><img src="images/icon-reminders.svg" alt="icon"> Reminder</a></li>
+              <li><a href=""><img src="images/icon-planning.svg" alt="icon"> Planning</a></li>
+            </ul>
+          </a> 
+        </li>
+        <li>
+          <a href="#">Company  
+            <img src="images/icon-arrow-down.svg" class="arrow-down companys" alt="icon"> 
+            <ul class="sub-menu company">
+            <li><a href="">History</a></li>
+            <li><a href="">Our Team</a></li>
+            <li><a href="">Blog</a></li>
+            </ul>
+          </a>  
+        </li>
+        <li><a href="">Career</a></li>
+        <li><a href="">About</a></li>
+      </ul>
+
+      <ul class="account">
+        <li><a href="">Login</a></li>
+        <li><a href="">Register</a></li>
+      </ul>
+    </nav>
+
+    <!-- mobile menu begins here -->
+    <nav class="mobile">
+      <div class="mobile-wrapper">
+        <div class="logo">
+          <img src="images/logo.svg" alt="">
+        </div>
+
+        <div class="hamburger">
+          <img src="images/icon-menu.svg" class="open" alt="">
+        </div>
+      </div>
+
+      <div class="nav-mobile">
+        <span><img src="images/icon-close-menu.svg" class="close" alt=""></span>
+        <ul class="mobile-menu">
+          <li>
+            <a href="#">Features  
+              <img src="images/icon-arrow-down.svg" class="arrow-down feature" alt="icon">
+              <ul class="mobile-sub-menu featured">
+                <li><a href=""><img src="images/icon-todo.svg" alt="icon"> Todo List</a></li>
+                <li><a href=""><img src="images/icon-calendar.svg" alt="icon"> Calender</a></li>
+                <li><a href=""><img src="images/icon-reminders.svg" alt="icon"> Reminder</a></li>
+                <li><a href=""><img src="images/icon-planning.svg" alt="icon"> Planning</a></li>
+              </ul>
+            </a> 
+          </li>
+          <li>
+            <a href="#">Company  
+              <img src="images/icon-arrow-down.svg" class="arrow-down companys" alt="icon"> 
+              <ul class="mobile-sub-menu companied">
+              <li><a href="">History</a></li>
+              <li><a href="">Our Team</a></li>
+              <li><a href="">Blog</a></li>
+              </ul>
+            </a>  
+          </li>
+          <li><a href="">Career</a></li>
+          <li><a href="">About</a></li>
+
+          <ul class="mobile-account">
+            <li><a href="">Login</a></li>
+            <li><a href="">Register</a></li>
+          </ul>
+        </ul>
+      </div>
+    </nav>
+    <div class="bgoverlay"></div>
+    <!-- navigation ends here  -->
+  </header>
+  <main>
+    <div class="main-wrapper">
+      <div class="content">
+        <h2>Make remote work</h2>
+        <p>Get your team in sync, no matter your location. Streamline processes, 
+          create team rituals, and watch productivity soar.</p>
+          <a href="" class="more">Learn more</a>
+          <div class="brand">
+            <div class="brandimg">
+              <img src="images/client-databiz.svg" alt="">
+            </div>
+            <div class="brandimg">
+              <img src="images/client-audiophile.svg" alt="">
+            </div>
+            <div class="brandimg">
+              <img src="images/client-meet.svg" alt="">
+            </div>
+            <div class="brandimg">
+              <img src="images/client-maker.svg" alt="">
+            </div>
+          </div>
+      </div>
+        <div class="img-container"></div>
+       
+    </div>
+  </main>
+
+  <footer>  
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io/profile/edesuccess54" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Ede Success</a>.
+    </div>
+  </footer>
+  <script src="main.js"></script>
+</body>
+</html>
