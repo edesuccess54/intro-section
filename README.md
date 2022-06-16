@@ -32,8 +32,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [git@github.com:edesuccess54/intro-section.git]
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: https://github.com/edesuccess54/intro-section
+- Live Site URL: https://navsections.netlify.app/
 
 ## My process
 
@@ -55,7 +55,7 @@ i want to continue focusing on css layout with css grid and css flexbox and also
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
+- Website - https://navsections.netlify.app/
 - Frontend Mentor - https://www.frontendmentor.io/profile/edesuccess54
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Twitter - https://twitter.com/mansucsex
 
